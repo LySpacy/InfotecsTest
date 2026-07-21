@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <File Path="docker-compose.yml" />
+    <File Path="Dockerfile" />
+    <Project Path="InfotecsTest.API/InfotecsTest.API.csproj" />
+    <Project Path="InfotecsTest.Application/InfotecsTest.Application.csproj" />
+    <Project Path="InfotecsTest.Domain/InfotecsTest.Domain.csproj" />
+    <Project Path="InfotecsTest.Infrustraction/InfotecsTest.Infrustraction.csproj" />
+  </Folder>
+</Solution>
