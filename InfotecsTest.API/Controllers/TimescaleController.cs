@@ -34,9 +34,6 @@ public sealed class TimescaleController : Controller
         if (file is null || file.Length == 0)
             return BadRequest("Файл пуст");
 
-        Console.WriteLine(file.FileName);
-        Console.WriteLine(file.ContentType);
-
         if (!Path.GetExtension(file.FileName)
             .Equals(".csv", StringComparison.OrdinalIgnoreCase))
         {
