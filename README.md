@@ -1,8 +1,8 @@
 
-# Запуск приложения через терминал
+## Запуск приложения через терминал
 
     git clone https://github.com/LySpacy/InfotecsTest.git
-    cd project
+    cd [project]
     docker compose up --build
 
 Documentation Api (Swagger): http://localhost:5000/swagger
