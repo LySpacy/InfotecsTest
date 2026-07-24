@@ -3,6 +3,9 @@ using CsvHelper.Configuration;
 using CsvHelper.TypeConversion;
 using System.Globalization;
 
+/// <summary>
+/// Обработчик строки даты, позволяющий отпарсить дату с дефисами, в DateTime тип.
+/// </summary>
 public sealed class CustomDateTimeConverter : DefaultTypeConverter
 {
     private const string Format = "yyyy-MM-dd'T'HH-mm-ss.ffff'Z'";
