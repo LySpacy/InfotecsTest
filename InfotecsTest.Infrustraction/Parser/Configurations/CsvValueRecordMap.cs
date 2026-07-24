@@ -3,6 +3,9 @@ using InfotecsTest.Infrustraction.Parser.Models;
 
 namespace InfotecsTest.Infrustraction.Parser.Configurations;
 
+/// <summary>
+/// Конфигурация маппинга данных для CvsHelper
+/// </summary>
 internal sealed class CsvValueRecordMap : ClassMap<CsvValueRecord>
 {
     public CsvValueRecordMap()
