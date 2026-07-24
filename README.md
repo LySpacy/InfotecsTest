@@ -6,10 +6,11 @@
     docker compose up --build
 *Примечание: Для корректного запуска проекта, вам необходимо иметь установленный **Docker Desktop***
 
-Documentation Api (Swagger): http://localhost:5000/swagger
+Documentation Api (Swagger): http://localhost:5000/swagger  
+*(Переадресация на документацию произойдет автоматически, при переходе на адрес http://localhost:5000)*
 
 # Документация по методам апи
-адрес апи http://localhost:5000/api/
+адрес апи - http://localhost:5000/api/
 
 ## Endpoint /timescale
 ### /loadCSV
