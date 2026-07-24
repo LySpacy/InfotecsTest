@@ -4,6 +4,7 @@
     git clone https://github.com/LySpacy/InfotecsTest.git
     cd [project]
     docker compose up --build
+*Примечание: Для корректного запуска проекта, вам необходимо иметь установленный **Docker Desktop***
 
 Documentation Api (Swagger): http://localhost:5000/swagger
 
