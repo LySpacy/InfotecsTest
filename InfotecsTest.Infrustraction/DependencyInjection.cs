@@ -10,8 +10,15 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace InfotecsTest.Application;
 
+/// <summary>
+/// Подключение зависимостей
+/// </summary>
 public static class DependencyInjection
 {
+
+    /// <summary>
+    /// Подключение сервисов (классов логики) слоя инфраструктуры, а так же конфигурация для различный сервисов работающих с внешними ресурсами.
+    /// </summary>
     public static IServiceCollection RegisterInfrustractionLayer(
         this IServiceCollection services, 
         IConfiguration configuration)
@@ -41,8 +48,15 @@ public static class DependencyInjection
     }
 }
 
+/// <summary>
+/// Подключение миграции
+/// </summary>
 public static class MigrationExtensions
 {
+
+    /// <summary>
+    /// Автоматическое проведление миграций, при сборке проекта
+    /// </summary>
     public static void ApplyMigrations(this IApplicationBuilder app)
     {
         using var scope = app.ApplicationServices.CreateScope();
